@@ -1,0 +1,52 @@
+<!-- This file contains my  -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>About Me</title>
+        <link rel="stylesheet" href="assets/stylesheets/main.css">
+
+        <!-- create a navigational menu -->
+        <nav>
+            <a href="index.html">About Me</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+    </head>
+    <body>
+        <!-- display the date using a JavaScript script -->
+        <div id="todays_date"></p>
+            <script>
+            date = new Date();
+            year = date.getFullYear();
+            month = date.getMonth()+1;
+            day = date.getDate();
+            document.getElementById("todays_date").innerHTML = month + "/" + day + "/" + year;
+            </script>
+
+        <h1>
+            <a href="index.html">About Me</a>
+        </h1>
+        <marquee  behavior="alternate" direction="right"> 
+            <img src="assets/images/me.jpg" alt="My Picture">
+        </marquee>
+        <p><b>Hi there!</b>  
+
+            My name is Crawford Hovis, and I am a Dartmouth '25 excited about the possibility of 
+            working in working in the DALI Lab.
+            
+            I'm from Knoxville, Tennessee, so I'm still adjusting to Hanover weather, but spring 
+            is getting to be beautiful.
+
+            I'm majoring in Computer Science and Economics, and I would love to put the skills that 
+            I have learned in COSC 10, 50, and maybe even 51 to good use in the DALI Lab. I look 
+            forward to learning more about Web Development an UI/UX design. I love problem solving, 
+            which is my favorite part of software development, and I look forward to hopefully putting 
+            some of these problem solving skills to more practical, real world use through DALI projects 
+            this fall!
+        </p>
+    </body>
+    <footer>
+        <small>Thanks for your consideration!</small>
+    </footer>
+</html>
